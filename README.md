@@ -1,8 +1,8 @@
 # Camera-Rock-Paper-Scissors-Game
 
-This program is designed to simulate rock paper scissors game.
+First project with aiCore. This program is designed to simulate rock paper scissors game using a webcam.
 
-There are three functions which comprise the functionaility game: get_computer_choice, get_user_choice and get_winner
+There are three functions which comprise the functionaility game: `get_computer_choice`, `get_user_choice` and `get_winner`
 
 get_computer_choice uses the random function to generate one of rock, paper or scissors, which comprises the 
 computer selection. 
@@ -16,6 +16,6 @@ The get_winner function decides whether the computer random choice (from get_com
 (from get_user_choice function) is the winner or a draw, and communicates this with the player.
 
 In order to keep state (score) within a single game, all of the above functions were included as methods within the class.
-Rock_paper_scissors. An instance of the class called play_game calls the three methods above iteratively and keeps score. When either 
-the player or the computer reaches the attribute instance attribute first_to_x then the game is over and the winner is stated. 
+Rock_paper_scissors. An instance of the class called `play_game` calls the three methods above iteratively and keeps score. When either 
+the player or the computer reaches the attribute instance attribute `first_to_x` then the game is over and the winner is stated. 
 
